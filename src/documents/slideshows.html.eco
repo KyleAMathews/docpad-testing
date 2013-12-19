@@ -1,0 +1,15 @@
+---
+layout: 'default'
+title: 'flickr image slideshows'
+---
+
+<ul>
+  <% for page in @getCollection("html").findAll({layout:'flickr'}).toJSON(): %>
+    <% #docpad.log(page) %>
+    <li>
+      <a href="<%= page.url %>">
+          <%= page.tags %>
+      </a>
+    </li>
+  <% end %>
+</ul>
