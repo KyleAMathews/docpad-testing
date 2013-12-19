@@ -7,3 +7,4 @@ title: 'What now?'
 
 - [style guide](style-guide)
 - [This isn't true](said-the-dog)
+- [sweet slideshows](slideshows)
